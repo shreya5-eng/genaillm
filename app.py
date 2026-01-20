@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 from groq import Groq
 
 st.set_page_config("ShreyaAI Content Generator", layout="wide")
