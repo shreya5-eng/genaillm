@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("ShreyaAI Content Generator", layout="wide")
 st.title("📢 ShreyaAI – Content Generator")
-st.image("IMG-20251220-WA0104.jpg", width=100)
+st.image("IMG-20251220-WA0104.jpg", width=160)
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
