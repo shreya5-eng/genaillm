@@ -3,6 +3,7 @@ from groq import Groq
 
 st.set_page_config("ShreyaAI Content Generator", layout="wide")
 st.title("📢 ShreyaAI – Content Generator")
+st.inage(
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
